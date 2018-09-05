@@ -456,6 +456,8 @@
     <include name="${lib.dir}/${xmlpull.jar}"/>
     <include name="${lib.dir}/${xpp3.jar}"/>
     <include name="${lib.dir}/${xstream.jar}"/>
+    <include name="${lib.dir}/${jmeter-save-Mojo-1.1-SNAPSHOT.jar}"/>
+
   </patternset>
 
   <!--
@@ -543,6 +545,8 @@
     <pathelement location="${lib.dir}/${xmlpull.jar}"/>
     <pathelement location="${lib.dir}/${xpp3.jar}"/>
     <pathelement location="${lib.dir}/${xstream.jar}"/>
+    <pathelement location="${lib.dir}/${jmeter-save-Mojo-1.1-SNAPSHOT.jar}"/>
+
     <!-- Generated jars -->
     <fileset dir="${lib.dir}" includes="jorphan.jar"/>
     <!-- bshclient is needed to prevent occasional test failures in TestClassFinder -->
