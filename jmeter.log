@@ -1,0 +1,77 @@
+2018-09-05 16:55:15,586 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2018-09-05 16:55:15,629 INFO o.a.j.JMeter: Loading user properties from: /Users/liangwei/workspace/liangwei/Source/jmeter/bin/user.properties
+2018-09-05 16:55:15,632 INFO o.a.j.JMeter: Loading system properties from: /Users/liangwei/workspace/liangwei/Source/jmeter/bin/system.properties
+2018-09-05 16:55:15,646 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-09-05 16:55:15,646 INFO o.a.j.JMeter: Version 4.1-SNAPSHOT
+2018-09-05 16:55:15,646 INFO o.a.j.JMeter: java.version=1.8.0_141
+2018-09-05 16:55:15,646 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-09-05 16:55:15,646 INFO o.a.j.JMeter: os.name=Mac OS X
+2018-09-05 16:55:15,646 INFO o.a.j.JMeter: os.arch=x86_64
+2018-09-05 16:55:15,646 INFO o.a.j.JMeter: os.version=10.13.3
+2018-09-05 16:55:15,647 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-09-05 16:55:15,647 INFO o.a.j.JMeter: Max memory     =1908932608
+2018-09-05 16:55:15,647 INFO o.a.j.JMeter: Available Processors =4
+2018-09-05 16:55:15,664 INFO o.a.j.JMeter: Default Locale=中文 (中国)
+2018-09-05 16:55:15,664 INFO o.a.j.JMeter: JMeter  Locale=中文 (中国)
+2018-09-05 16:55:15,664 INFO o.a.j.JMeter: JMeterHome=/Users/liangwei/workspace/liangwei/Source/jmeter
+2018-09-05 16:55:15,664 INFO o.a.j.JMeter: user.dir  =/Users/liangwei/workspace/liangwei/Source/jmeter
+2018-09-05 16:55:15,665 INFO o.a.j.JMeter: PWD       =/Users/liangwei/workspace/liangwei/Source/jmeter
+2018-09-05 16:55:15,680 INFO o.a.j.JMeter: IP: 10.200.55.183 Name: liangweideMacBook-Pro.local FullName: 10.200.55.183
+2018-09-05 16:55:18,479 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2018-09-05 16:55:18,513 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2018-09-05 16:55:18,514 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2018-09-05 16:55:18,615 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2018-09-05 16:55:18,846 INFO o.a.j.g.a.ActionRouter: Using fallback search path
+2018-09-05 16:55:19,853 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-09-05 16:55:19,854 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-09-05 16:55:19,857 WARN o.a.j.e.u.CompoundVariable: Did not find any functions
+2018-09-05 16:55:20,894 ERROR o.a.j.g.u.MenuFactory: Error initializing menus, check configuration if using 3rd party libraries
+java.lang.IllegalStateException: null
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_141]
+	at org.apache.jmeter.gui.util.MenuFactory.separateItemsWithExplicitOrder(MenuFactory.java:205) ~[classes/:?]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:108) ~[classes/:?]
+	at org.apache.jmeter.control.gui.TestPlanGui.createPopupMenu(TestPlanGui.java:92) ~[classes/:?]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:184) ~[classes/:?]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) ~[classes/:?]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) ~[classes/:?]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) ~[classes/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_141]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756) [?:1.8.0_141]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_141]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_141]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_141]
+	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_141]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [?:1.8.0_141]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726) [?:1.8.0_141]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [?:1.8.0_141]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_141]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_141]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_141]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_141]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_141]
+2018-09-05 16:55:20,900 ERROR o.a.j.JMeter: Uncaught exception: 
+java.lang.ExceptionInInitializerError: null
+	at org.apache.jmeter.control.gui.TestPlanGui.createPopupMenu(TestPlanGui.java:92) ~[classes/:?]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:184) ~[classes/:?]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) ~[classes/:?]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) ~[classes/:?]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) ~[classes/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) ~[?:1.8.0_141]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756) ~[?:1.8.0_141]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) ~[?:1.8.0_141]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) ~[?:1.8.0_141]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) ~[?:1.8.0_141]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_141]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_141]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726) ~[?:1.8.0_141]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [?:1.8.0_141]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_141]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_141]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_141]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_141]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_141]
+Caused by: java.lang.IllegalStateException
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_141]
+	at org.apache.jmeter.gui.util.MenuFactory.separateItemsWithExplicitOrder(MenuFactory.java:205) ~[classes/:?]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:108) ~[classes/:?]
+	... 19 more
